@@ -276,7 +276,7 @@ public class Click {
 					//On génère le click gauche de selection après trois secondes
 					robot.mousePress(InputEvent.BUTTON1_MASK);
 					robot.mouseRelease(InputEvent.BUTTON1_MASK);
-					g = left.getGraphics();
+					g = right.getGraphics();
 					right.setBackground(UIManager.getColor("Button.background"));
 					right.paint(g);
 				}
